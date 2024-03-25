@@ -16,9 +16,9 @@ setuptools.setup(
     description="A simple python package to load and interact with Precipitation Imaging Package (PIP) particle microphysics data.",
     url="https://github.com/frasertheking/pipdb",
     packages=setuptools.find_packages(),
-    classifiers=(
+    classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ),
+    ],
 )

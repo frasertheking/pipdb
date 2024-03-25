@@ -9,11 +9,10 @@ __institution__   = "University of Michigan"
 import xarray as xr
 import glob
 import os
-import pconfig
 from functools import reduce
 
 
-def get_precip_data_for_day(site_name, year, month, day):
+def get_precip_data_for_day(base_dir, site_name, year, month, day):
     """
     Fetch precipitation data for a given site, year, month, and day.
     
@@ -26,7 +25,6 @@ def get_precip_data_for_day(site_name, year, month, day):
     Returns:
     - An xarray.Dataset containing all data variables for the specified period.
     """
-    base_dir = f"{pconfig.MAIN_PATH}{year}_{site_name}/netCDF/"
     
     file_patterns = {
         'edensity_lwe_rate': 'adjusted_edensity_lwe_rate/*{year}{month:02d}{day:02d}_min.nc',
@@ -82,8 +80,7 @@ def get_common_dates(base_dir, file_patterns):
 
 
 
-def load_single_year_data(site_name, year):
-    base_dir = f"{pconfig.MAIN_PATH}{year}_{site_name}/netCDF"
+def load_single_year_data(base_dir, site_name, year):
     
     file_patterns = {
         'edensity_lwe_rate': f'adjusted_edensity_lwe_rate/*.nc',
@@ -126,7 +123,7 @@ def load_single_year_data(site_name, year):
 
 
 
-def load_data_for_sites(sites_to_include):
+def load_data_for_sites(main_path, sites_to_include):
     """
     Loads data into xarray datasets for specified sites and allows for easy comparison between sites and years.
 
@@ -140,7 +137,7 @@ def load_data_for_sites(sites_to_include):
     
     datasets = {}
     
-    year_site_dirs = [d for d in os.listdir(pconfig.MAIN_PATH) if os.path.isdir(os.path.join(pconfig.MAIN_PATH, d))]
+    year_site_dirs = [d for d in os.listdir(main_path) if os.path.isdir(os.path.join(main_path, d))]
     
     for year_site in year_site_dirs:
         _, site_name = year_site.split('_')
@@ -148,7 +145,7 @@ def load_data_for_sites(sites_to_include):
         if site_name in sites_to_include:
             year, site = year_site.split('_')
             
-            base_dir = os.path.join(pconfig.MAIN_PATH, year_site, 'netCDF')
+            base_dir = os.path.join(main_path, year_site, 'netCDF')
             
             file_patterns = {
                 'edensity_lwe_rate': 'adjusted_edensity_lwe_rate/*.nc',

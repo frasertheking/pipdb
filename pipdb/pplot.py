@@ -12,7 +12,6 @@ import matplotlib.patheffects as pe
 import numpy as np
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
-import pconfig
 from matplotlib.colors import LogNorm
 
 
@@ -27,7 +26,7 @@ def plot_precip_data_for_day(ds, site, year, month, day):
     fig.suptitle(f'PIP Variable Quicklook for {site} on {year}-{month}-{day}')
 
     axs[0].patch.set_facecolor('#000871')
-    h = axs[0].imshow(ds['particle_size_distributions_psd'].T, cmap='plasma', norm=LogNorm(vmin=pconfig.PSD_MIN, vmax=pconfig.PSD_MAX), aspect='auto')
+    h = axs[0].imshow(ds['particle_size_distributions_psd'].T, cmap='plasma', norm=LogNorm(vmin=0.1, vmax=10000), aspect='auto')
     cbar = fig.colorbar(h, ax=axs[0])
     cbar.set_label('PSD (m$^{−3}$ mm$^{−1}$)')
     bin_centers = ds.particle_size_distributions_bin_centers.values
@@ -41,7 +40,7 @@ def plot_precip_data_for_day(ds, site, year, month, day):
     axs[0].invert_yaxis()
 
     axs[1].patch.set_facecolor('#0b0780')
-    h = axs[1].imshow(ds['velocity_distributions_vvd'].T, cmap='plasma', vmin=pconfig.VVD_MIN, vmax=pconfig.VVD_MAX, aspect='auto')
+    h = axs[1].imshow(ds['velocity_distributions_vvd'].T, cmap='plasma', vmin=0, vmax=3, aspect='auto')
     cbar = fig.colorbar(h, ax=axs[1])
     cbar.set_label('VVD (m s$^{-1}$)')
     bin_centers = ds.velocity_distributions_bin_centers.values
@@ -55,7 +54,7 @@ def plot_precip_data_for_day(ds, site, year, month, day):
     axs[1].invert_yaxis()
 
     axs[2].patch.set_facecolor('white')
-    h = axs[2].imshow(ds['edensity_distributions_rho'].T, cmap='seismic', vmin=pconfig.RHO_MIN, vmax=pconfig.RHO_MAX, aspect='auto')
+    h = axs[2].imshow(ds['edensity_distributions_rho'].T, cmap='seismic', vmin=0, vmax=1, aspect='auto')
     cbar = fig.colorbar(h, ax=axs[2])
     cbar.set_label('Rho (g cm$^{-3}$)')
     bin_centers = ds.edensity_distributions_bin_centers.values
