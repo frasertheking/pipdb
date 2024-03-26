@@ -62,4 +62,6 @@ Contact
    :maxdepth: 2
    :caption: Contents:
 
+   index
    functions
+   usage
