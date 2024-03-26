@@ -1,6 +1,10 @@
 Welcome to the pipdb documentation!
 ===================================
 
+.. image:: logo.jpg
+  :width: 500
+  :alt: logo
+
 **pipdb**: is a simple library for interacting with Precipitation Imaging Probe datasets, maintained by `Fraser King <https://frasertheking.com/>`_
 
 .. note::
@@ -41,6 +45,10 @@ How to install the package
 How to install the package
 
 
+``Datasets``
+How to install the package
+
+
 ``Functions``
 How to install the package
 
@@ -49,9 +57,8 @@ How to install the package
 How to install the package
 
 
-``Data``
+``Applications``
 How to install the package
-
 
 Contact
 --------
