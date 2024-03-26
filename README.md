@@ -1,4 +1,8 @@
-# pipdb
+<div align="center">
+
+![logo](https://github.com/frasertheking/snowfall_pca/blob/main/images/title.png?raw=true)
+
+**pipdb**: a simple library for interacting with Precipitation Imaging Probe datasets, maintained by [Fraser King](https://frasertheking.com/)
 
 ![build](https://github.com/buttons/github-buttons/workflows/build/badge.svg)
 [![DOI](https://zenodo.org/badge/DOI/10.7302/DeepBlue.37yx-9q53.svg)](https://doi.org/10.7302/37yx-9q53) 
