@@ -1,11 +1,3 @@
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   index
-   functions
-   usage
-
 Welcome to the pipdb documentation!
 ===================================
 
@@ -65,3 +57,9 @@ Contact
 
 - Fraser King, University of Michigan, kingfr@umich.edu
 - Claire Pettersen, University of Michigan
+
+.. toctree::
+   :maxdepth: 2
+
+   functions
+   usage
