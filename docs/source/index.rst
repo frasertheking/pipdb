@@ -3,7 +3,8 @@ Welcome to the pipdb documentation!
 
 **pipdb**: is a simple library for interacting with Precipitation Imaging Probe datasets, maintained by `Fraser King <https://frasertheking.com/>`_
 
-Note that this project is currently under active development and these documents may therefore change in time.
+.. note::
+   Note that this project is currently under active development and these documents may therefore change in time.
 
 What is this?
 --------
