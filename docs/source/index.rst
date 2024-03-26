@@ -59,7 +59,7 @@ Contact
 - Claire Pettersen, University of Michigan
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    functions
    usage

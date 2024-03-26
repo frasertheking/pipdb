@@ -1,8 +1,6 @@
 pipdb Functions Documentation
 ===========================
 
-.. _functions:
-
 This documentation provides details for each function available in the API, including their purpose, inputs, outputs, and key features. The functions are categorised by their respective modules for easier user navigation.
 
 pconfig Module
