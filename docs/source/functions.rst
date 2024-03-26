@@ -1,5 +1,3 @@
-.. _functions:
-
 pipdb Functions Documentation
 ===========================
 
