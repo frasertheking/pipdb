@@ -60,7 +60,7 @@ Contact
 
 .. toctree::
    :hidden:
+   :caption: Content
 
-   index
    functions
    usage
