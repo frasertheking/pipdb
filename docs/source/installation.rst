@@ -1,7 +1,7 @@
-Tester
+Installation
 =====
 
-Installation
+How to
 ------------
 
 asd asd asdasd asd

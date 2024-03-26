@@ -40,7 +40,7 @@ How to install the package
 How to install the package
 
 
-:ref:`Functions`
+``Functions``
 How to install the package
 
 
@@ -60,7 +60,6 @@ Contact
 
 .. toctree::
    :hidden:
-   :caption: Content
 
    functions
-   usage
+   installation
