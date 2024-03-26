@@ -163,7 +163,7 @@ def load_data_for_sites(main_path, sites_to_include):
 
 def load_year_data(site_name, year, base_dir, common_dates, file_patterns):
     """
-    Adjusted version of the previously defined load_year_data to accept base_dir and common_dates directly.
+    Alt version of the previously defined load_year_data to accept base_dir and common_dates directly. # TODO: combine later?
     """
 
     print("Loading:", site_name, year)

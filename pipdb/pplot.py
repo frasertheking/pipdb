@@ -88,7 +88,7 @@ def plot_precip_data_for_day(ds, site, year, month, day):
 
 def plot_inverse_exponential(a, b):
     """
-    Plots the exponential decay function a * np.exp(-b * t) over 100 timesteps.
+    Plots the exponential decay function a * np.exp(-b * t) over 131 timesteps.
 
     Parameters:
     - a: Intercept term of the exponential function.

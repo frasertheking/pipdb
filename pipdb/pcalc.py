@@ -64,7 +64,7 @@ def get_psd_params(ds):
 
 def split_dataset_by_ed_adj(dataset):
     """
-    Alternative approach to split the input dataset into two subsets based on the condition
+    Approach to split the input dataset into two subsets based on the condition
     of ed_adj values, aiming to avoid unexpected dimension size changes.
 
     Parameters:
