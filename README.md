@@ -101,10 +101,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 - Fraser King, University of Michigan, kingfr@umich.edu
 - Claire Pettersen, University of Michigan
-- Brenda Dolan, Colorado State University
-- Julia Shates, NASA Jet Propulsion Laboratory
-- Derek Posselt, NASA Jet Propulsion Laboratory
-
 
 ## Funding
 This project was primarily funded by NASA New (Early Career) Investigator Program (NIP) grant at the [University of Michigan](https://umich.edu).
