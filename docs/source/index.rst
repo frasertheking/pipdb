@@ -61,5 +61,6 @@ Contact
 .. toctree::
    :hidden:
 
+   index
    functions
    usage
