@@ -6,6 +6,7 @@ Welcome to the pipdb documentation!
   :align: center
   :alt: logo
 
+
 **pipdb**: is a simple library for interacting with Precipitation Imaging Probe datasets, maintained by `Fraser King <https://frasertheking.com/>`_
 
 .. note::
@@ -70,5 +71,9 @@ Contact
 .. toctree::
    :hidden:
 
-   functions
+   download
    installation
+   datasets
+   functions
+   examples
+   applications
