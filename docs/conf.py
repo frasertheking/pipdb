@@ -50,17 +50,6 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 
-# --- Mock imports -------------------------------------------------------------
-import mock 
- 
-
-MOCK_MODULES = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot', 'pandas',
- 		'cartopy', 'xarray', 'seaborn', 'netcdf4']
-for mod_name in MOCK_MODULES:
-     sys.modules[mod_name] = mock.MagicMock()
-
-
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
