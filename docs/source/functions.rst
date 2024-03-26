@@ -131,3 +131,8 @@ A data parsing module to quickly load data from NetCDF into xarray.Dataset objec
   - **Parameters**: 
     - ``base_dir``, ``site_name``, ``year``: Details
 
+.. toctree::
+   :maxdepth: 2
+
+   index
+   usage
