@@ -89,7 +89,7 @@ For a brief overview of the data study sites and coverage periods, please see th
 
 
 ## Documentation
-For additional API documentation, please see our wiki at [LINK].
+For additional API documentation, please see our docs page: https://pipdb.readthedocs.io/
 
 
 ## Contributing
