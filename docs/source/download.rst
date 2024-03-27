@@ -6,6 +6,7 @@ pipdb
 To download the pipdb, clone our GitHub repository:
 
 .. code-blcok:: python
+    
     git clone https://github.com/frasertheking/pipdb/
 
 Example Data
