@@ -79,4 +79,3 @@ If you have any questions about using the dataset, please reach out to one of th
    datasets
    functions
    examples
-   applications
