@@ -41,7 +41,7 @@ Contents
 --------
 
 ``Download``
-How to install the package
+How to download the package contents to your system
 
 
 ``Installation``
@@ -49,19 +49,16 @@ How to install the package
 
 
 ``Datasets``
-How to install the package
+Where to find and download the PIP data to use the API with
 
 
 ``Functions``
-How to install the package
+API function defitintion references
 
 
 ``Examples``
-How to install the package
+Interactive notebooks for using the API on real PIP data
 
-
-``Applications``
-How to install the package
 
 Contact
 --------
