@@ -15,6 +15,8 @@ Welcome to the pipdb documentation!
 What is this?
 --------
 
+GitHub repository: https://github.com/frasertheking/pipdb
+
 This package is a simple query API for parsing, visualizing and performing particle size distribution calculations for Precipitation Imaging Package (PIP) data stored on `DeepBlue <https://deepblue.lib.umich.edu/data/concern/data_sets/kk91fm40r?locale=en>`_. For additional details regadring the processing of the DeepBlue data from raw PIP files into NetCDF-4 format, please see the associated GitHub repository: `PIP_Processing <https://github.com/frasertheking/pip_processing>`_.
 
 This package makes it easy as a user to:
