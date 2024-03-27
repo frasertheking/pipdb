@@ -36,6 +36,6 @@ Importing
 If everything was downloaded and installed properly, you should now be able to use the API in your projects by importing pipdb:
 
 .. code-block:: bash
-    
+
     import pipdb
 
